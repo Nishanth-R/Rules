@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Diff</name>
+  <uuid>86f458b9-2c77-49f4-9d70-3dd8403344a3</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if 
+	get the value of the value of a in object 'Diff'  is greater and b and the b of 'Diff'  does not equal 0
+then 
+set the sum of 'Diff' to get the value of  of a in object 'Diff' the b of 'Diff' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

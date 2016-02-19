@@ -1,0 +1,17 @@
+
+flowtask Difference {
+  property mainflowtask = true;
+  property ilog.rules.business_name = "Difference";
+  property ilog.rules.package_name = "";
+  body {
+    Difference#task$_$1;
+  }
+};
+
+functiontask Difference#task$_$1 {
+  property ilog.rules.business_name = "Difference>task_1";
+  property ilog.rules.package_name = "";
+  body {
+  }
+};
+

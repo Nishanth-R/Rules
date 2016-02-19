@@ -1,0 +1,12 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/MySecondRuleProject//Own2"
+property uuid "ce09f224-c178-4c69-a613-1f644cbca5f1"
+package com.compute;
+
+
+public class trigger
+{
+    public trigger();
+}
+
